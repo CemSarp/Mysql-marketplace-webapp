@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Mysql-marketplace-webapp
-My cs306 database systems course project
-=======
 ## 🗂️ Directory Structure & Documentation
 
 The application's logic is split into two primary domains: **Admin** and **User**, located within the `scripts/` directory. The project utilizes a polyglot persistence architecture, combining **MySQL** for robust relational data (listings, users, transactions) and **MongoDB** for flexible document storage (support tickets).
@@ -54,4 +50,3 @@ Contains the core user-facing functionality, ranging from marketplace listing ge
     *   **MySQL:** Engineered to handle the highly structured aspects of the marketplace. Utilizes **Stored Procedures** for atomic, multi-table inserts and **Triggers** to enforce strict business rules at the database level.
     *   **MongoDB:** Utilized exclusively for the Support Ticketing system, benefiting from a document-based NoSQL structure that excels at handling dynamic, unstructured messaging logs and user feedback.
 *   **Security:** Features comprehensive SQL injection protection via PHP Prepared Statements (`$mysqli->execute()`) and secure cryptographic credential storage using `password_hash()`.
->>>>>>> 18788cb (Initial commit: MySQL Marketplace WebApp)

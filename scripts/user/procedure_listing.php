@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
     <div class="top-nav">
-        <a href="/user">Homepage</a>
+        <a href="index.php">Homepage</a>
     </div>
 
     <h2>Generate Classified Listing Report</h2>
